@@ -35,7 +35,13 @@ export default function Section() {
             <div className={Sec.mem}>
               <h3 className={Sec.profilename}>Anuridhi Rathore</h3>
               <h4 className={Sec.profileposition}>Product Manager</h4>
-              <a href="https://annuportfolio.netlify.app/" target='_blank' rel="noreferrer" ><button>Know More</button></a>
+              <a
+                href="https://annuportfolio.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Know More</button>
+              </a>
             </div>
           </div>
 
@@ -53,7 +59,14 @@ export default function Section() {
               <h4 className={Sec.profileposition}>
                 Chief Executive Officer (CEO)
               </h4>
-              <a href="https://ashutoshinfo.netlify.app/" target='_blank' rel='noreferrer'> <button>Know More</button></a>
+              <a
+                href="https://ashutoshinfo.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                <button>Know More</button>
+              </a>
             </div>
           </div>
           <div
@@ -68,7 +81,14 @@ export default function Section() {
             <div className={Sec.mem}>
               <h3 className={Sec.profilename}>Somnath Banarjee</h3>
               <h4 className={Sec.profileposition}>Front End Developer</h4>
-              <a href="https://samcoonector.netlify.app/" target='_blank' rel='noreferrer'> <button>Know More</button></a>
+              <a
+                href="https://samcoonector.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                <button>Know More</button>
+              </a>
             </div>
           </div>
           <div
@@ -83,7 +103,14 @@ export default function Section() {
             <div className={Sec.mem}>
               <h3 className={Sec.profilename}>Rahul Pareek</h3>
               <h4 className={Sec.profileposition}>Full Stack Developer</h4>
-              <a href="https://rahulpareekporfolio.netlify.app/" target='_blank' rel='noreferrer'> <button>Know More</button></a>
+              <a
+                href="https://rahulpareekporfolio.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                <button>Know More</button>
+              </a>
             </div>
           </div>
         </div>
