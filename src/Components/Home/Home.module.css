@@ -1,0 +1,339 @@
+.Home {
+    background-color: #111;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url('https://megaone.acrothemes.com/personal-hotspot/images/portfolio-bg.jpg');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.WelcomeNote {
+    max-width: 800px;
+   
+    height: auto;
+   
+    color:black;
+
+    border-radius: 10px;
+    box-shadow: -3px -3px 1px 6px #2b3033,
+    3px 3px 1px 6px #111;
+    
+    
+}
+.letter {
+    text-transform: lowercase;
+    color: #ccc;
+}
+.capital {
+    font-size: 55px;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    padding-left: 10px;
+    text-shadow: 2px 2px #FF0000;
+}
+.new {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+
+  
+.Welcome_content {
+   font-size: 40px;
+   padding: 10px 100px;
+  
+ 
+}
+.Welcome_content span {
+    margin-left: 5px;
+    display: inline-block;
+}
+.getUserInfo {
+    margin-top: 50px;
+    max-width: 800px;
+    height: auto;
+    background-color:#2b3033;
+    color:black;
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+
+
+    
+}
+.getUserInfo label {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    color: #ccc;
+   
+}
+.getUserInfo input {
+    margin-bottom: 20px;
+    padding: 7px 100px;
+    border: none;
+    border-bottom: 2px solid rgb(162, 118, 7);
+    border-top:  2px solid rgb(162, 118, 7);
+    background-color: transparent;
+    color: #ccc;
+    border-radius: 15px;
+    outline: none;
+  
+}
+::-webkit-input-placeholder { /* Edge */
+    color: red;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    color: red;
+  }
+::placeholder {
+    text-align: left;
+    color: #fff;
+}
+.getUserInfo button {
+    padding: 8px 60px;
+    background-color:transparent;
+    border: 2px solid #3CA2B4;
+    color: #ccc;
+    border-radius: 10px; 
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: 700;
+}
+.getUserInfo button:hover {
+   background-color: #3CA2B4;
+   color: #2b3033;
+}
+
+/* OverLay Content */
+.msg {
+    max-width: 600px;
+    height: auto;
+    background-color:#2b3033;
+    color:black;
+    position: relative;
+    top: 10%;
+    left: 0%;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+.msg p {
+    background-color: #ccc;
+    padding: 10px;
+    text-align:left;
+    font-size: 18px;
+    word-spacing: 1px;
+    border-radius: 10px;
+}
+.ComeIn {
+   margin-top: 20px;
+   text-align: center;
+}
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  
+}
+.X {
+    color: #FF0000;
+    font-weight: 900;
+}
+.ComeIn button {
+  padding: 8px 70px;
+  border: 1px solid #dabd1d;
+  background-color:#2b3033;
+  border-radius: 1px;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: ease-in-out;
+}
+.ComeIn button:hover {
+    background-color: #dabd1d;
+    color: #2b3033;
+}
+
+
+/* Media */
+@media (width:280px){
+    .Home {
+        display: flex;
+        height:120vh;
+        padding: 30px 10px;
+        justify-content: flex-start;
+        
+    }
+}
+
+@media screen and (max-width:500px) {
+    .Home {
+       background-color: #2b3033;
+        height:100vh;
+        padding: 60px 10px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .WelcomeNote { 
+        height: auto; 
+        color:black;
+           
+    }
+    .Welcome_content {
+        font-size: 17px;
+        padding: 10px 20px;
+       
+      
+     }
+     .capital {
+        font-size: 35px;
+        padding-left: 0px;
+        
+    }
+    .getUserInfo {
+       margin-top: 70px;
+       width: auto;
+        height: auto;
+        background-color:#2b3033;
+        color:black;
+        padding: 40px 30px;
+        align-items: center;
+    
+        
+    }
+    .getUserInfo label {
+        font-size: 20px;
+      
+       
+    }
+    .getUserInfo input {
+        margin-bottom: 20px;
+        padding: 7px 30px;
+        border: none;
+        border-bottom: 2px solid rgb(162, 118, 7);
+        border-top:  2px solid rgb(162, 118, 7);
+        background-color: transparent;
+        color: #ccc;
+        border-radius: 15px;
+        outline: none;
+      
+    }
+    .msg {
+       
+        height: auto;
+        background-color:#2b3033;
+        color:black;
+        position: relative;
+        top: 10%;
+        left: 0%;
+        z-index: 1;
+        padding: 20px 20px;
+        border-radius: 10px;
+    }
+    .msg p {
+        background-color: #ccc;
+        padding: 10px;
+        text-align:left;
+        font-size: 15px;
+        word-spacing: 0px;
+        border-radius: 10px;
+    }
+    .name {
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    }
+    .X {
+        color: #FF0000;
+        font-weight: 600;
+    }
+    .ComeIn button {
+        padding: 8px 40px;
+        border: 1px solid #dabd1d;
+        background-color:#2b3033;
+        border-radius: 1px;
+        color: #ccc;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: ease-in-out;
+      }
+      .getUserInfo button {
+        padding: 8px 40px;
+        background-color:transparent;
+        border: 2px solid #3CA2B4;
+        color: #ccc;
+        border-radius: 10px; 
+       cursor: pointer;
+       font-size: 16px;
+       font-weight: 700;
+    }
+}
+
+@media  (width:540px) {
+   .Home {
+    background-color: #111;
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Welcome_content {
+    font-size: 40px;
+    padding: 10px 20px;
+   
+  
+ }
+ .capital {
+    font-size: 35px;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    padding-left: 0px;
+    text-shadow: 2px 2px #FF0000;
+}
+.Welcome_content {
+    font-size: 25px;
+    padding: 10px 60px;
+ }
+ .getUserInfo {
+    margin-top: 50px;
+    max-width: 800px;
+    height: auto;
+    background-color:#2b3033;
+    color:black;
+    padding: 40px  50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+
+
+    
+}
+}
+
+@media (width:768px) {
+    .Welcome_content {
+        font-size: 40px;
+        padding: 10px 20px;
+         
+     }
+}
+
+/* Galaxy fold */
+

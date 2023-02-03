@@ -1,0 +1,1213 @@
+.Cnt {
+    z-index: -2;
+    position: relative;
+}
+.MainBox {
+    background-color: #0c0f16;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    position: relative;
+    
+}
+.bgColor {
+    
+    /* background-color: #111; */
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    /* background-color: aqua; */
+    margin: auto;
+    font-size: 45px;
+    padding: 20px 10px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.contain {
+    /* background-color: aquamarine; */
+    width: 600px;
+    height: 120px;
+    padding: 10px;
+}
+.contain h4 {
+    color: #dabd1d;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.contain h5 {
+    font-size: 25px;
+    word-spacing: 5px;
+    font-weight: 400;
+    color: #ccc;
+    text-transform: capitalize;
+}
+.contain p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: cursive;
+    line-height: 40px;
+}
+.OurSelf {
+    /* background-color: blueviolet; */
+    width: 250px;
+    padding: 10px;
+    height: 100px;
+    margin-left: 55px;
+    text-align: right;
+}
+.OurSelf h4 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #ccc;
+}
+.OurSelf h4 span {
+    color:#dabd1d;
+    font-weight: 900;
+    font-size: 35px;
+}
+.ContImg {
+    background-image: url('https://megaone.acrothemes.com/personal-hotspot/images/contact-bg.jpg');
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 40px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.whole_form {
+    display: flex;
+    justify-content: center;
+    
+}
+.inptbox {
+    /* background-color: yellow; */
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin-top: 50px;
+  
+}
+.textarea {
+    /* background-color: blue; */
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.textarea textarea {
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: #CCC;
+    border-bottom: 1px solid #dabd1d;
+}
+.inptbox input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: #ccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: none;
+    border-bottom: 1px solid #dabd1d;
+   
+}
+.ext {
+    margin-top: 15px;
+   
+}
+
+.WholeSelectors {
+    margin-top: 20px;
+    background-color: #111;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #111
+
+}
+.WholeSelectors label {
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.WholeSelectors select {
+    padding: 5px 40px;
+    background-color: #111;
+    color: #CCC;
+    border: 1px solid #ccc;
+
+
+}
+.btn {
+
+    padding: 10px 50px;
+    text-align: center;
+    border: 1px solid #dabd1d;;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+.btnDiv {
+    text-align: center;
+}
+.btn:hover {
+    background-color: #dabd1d;
+    color: #111;
+}
+
+/* OverLay design */
+.BoxOverlay {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    background-color: #111;
+    background-image: url('https://megaone.acrothemes.com/personal-hotspot/images/contact-bg.jpg');
+    top: 151px;
+    left: 180px;
+    border-radius: 20px;
+    padding: 150px 10px;
+  
+    
+}
+
+.CntSupport {
+    padding: 20px;
+    background-color:transparent;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    box-shadow: -1px -2px 0px 3px #2b3243,
+                 1px 2px 0px 3px #927c03;
+    border-radius: 5px;
+
+               
+}
+.CntSupport p {
+    border: 1px solid #2b3243;
+    padding: 40px;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ccc;
+    background-color: #313745;
+    border-radius: 10px;
+}
+.sptBtn {
+    width: 400px;
+    margin: 20px auto;
+    height: auto;
+    
+}
+.sptBtn button {
+    padding: 15px 70px;
+    font-size: 18px;
+    font-weight: 800;
+    border: 2px solid #dabd1d;
+    background-color: transparent;
+    color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease-in-out;   
+}
+.sptBtn button:hover {
+    background-color: #dabd1d;
+    border: 2px solid #111;
+    color: black;
+}
+/* Eroors Showing */
+
+.errorPara {
+    padding: 10px;
+    background-color: #927c03;
+    color: #CCC;
+}
+
+/* Navbar */
+.Nav {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* error messages */
+
+.errormsg {
+    padding: 5px;
+    font-size: 12px;
+    color: red;
+}
+
+
+
+
+/* Media Quires */
+
+
+@media screen and (max-width: 500px) {
+    .MainBox {
+        background-color: #0c0f16;
+        width: auto;
+        height: auto;
+      
+    }   
+    .ContImg {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; 
+        padding: 30px 10px ;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .contain {
+        /* background-color: aquamarine; */
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        top: 72px;
+        padding: 10px 30px;
+        margin: 0px 10px;
+        border-radius: 10px;       
+    }
+    .bgColor {
+        font-size: 40px;
+        height: auto;
+    }
+    .whole_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        
+    }
+    .OurSelf {
+        /* background-color: blueviolet; */
+        position: relative;
+        width: auto;
+        padding:10px;
+        height: auto;
+        margin-left: auto;
+        text-align: left;
+        margin: auto;
+        top: -160px;
+    }
+    .inptbox {
+        /* background-color: yellow; */
+        width: auto;
+        height: auto;
+        padding: 0px;
+        margin-top: auto;
+      
+    }
+    .textarea {
+        position: relative;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        padding:0px;
+        margin: 0;
+        top: -160px;
+       
+        
+    }
+    .WholeSelectors {     
+       padding: 10px;
+       border-radius: 10px;
+       position: relative;
+       top: 220px;
+       
+    
+    }
+    .WholeSelectors select {
+        padding: 5px auto;
+        background-color: #111;   
+    }
+    /* .btn {
+
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid #dabd1d;;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-in-out;
+    } */
+    .btnDiv {
+        position: relative;
+        top: 210px;
+        text-align: center;
+       
+
+    }
+
+    /* Box OverLay */
+
+    .BoxOverlay {
+        position: relative;
+        background-color: #111;
+        width: auto;
+        height: auto;
+        left: auto;
+        right: auto;
+        top: auto;
+        padding: 100px 30px;      
+    }
+    .CntSupport {
+        padding: 10px;
+        background-color:transparent;
+        width: auto;
+        height: auto;
+        margin: auto;
+                     
+    }
+    .CntSupport p {
+        border: 1px solid #2b3243;
+        padding: 5px 10px;
+        font-family: inherit;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .sptBtn {
+     
+        width: auto;
+        margin: 20px auto;
+        height: auto;
+       
+        
+    }
+    .sptBtn button {
+        padding: 15px 40px;
+    }
+    .contain h4 {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        background-color: #0c0f16;
+        padding: 0px 10px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    
+
+        
+    }
+    .contain h5 {
+        font-size: 18px;
+        word-spacing: 0px;
+        font-weight: 600;
+        text-align: center;
+
+    }
+    .contain p {
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: 300;
+        font-family: inherit;
+        line-height: 20px;
+        text-align: center;
+    }
+    .OurSelf h4 {
+        font-size: 25px;
+        font-weight: 400;
+        color: #ccc;
+        text-align: center;
+    }
+    .OurSelf h4 span {
+        color:#dabd1d;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .OurSelf p {
+        font-size: 13px;
+        text-align: center;
+        color: #dabd1d;
+        font-weight: 500;
+
+    }
+
+    
+}
+
+
+@media (width:540px){
+    .MainBox {
+        background-color: #0c0f16;
+        width: auto;
+        height: auto;
+      
+    }   
+    .ContImg {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; 
+        padding: 30px 10px ;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .contain {
+        /* background-color: aquamarine; */
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        top: 72px;
+        padding: 10px 30px;
+        margin: 0px 10px;
+        border-radius: 10px;       
+    }
+  
+    .whole_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        
+    }
+    .OurSelf {
+        /* background-color: blueviolet; */
+        position: relative;
+        width: auto;
+        padding:10px;
+        height: auto;
+        margin-left: auto;
+        text-align: left;
+        margin: auto;
+        top: -160px;
+    }
+    .inptbox {
+        /* background-color: yellow; */
+        /* width: auto; */
+        height: auto;
+        padding: 0px;
+        margin-top: auto;
+      
+    }
+    .textarea {
+        position: relative;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        padding:0px;
+        margin: 0;
+        top: -160px;
+       
+        
+    }
+    .WholeSelectors {     
+       padding: 10px;
+       border-radius: 10px;
+       position: relative;
+       top: 220px;
+       
+    
+    }
+    .WholeSelectors select {
+        padding: 5px auto;
+        background-color: #111;   
+    }
+    /* .btn {
+
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid #dabd1d;;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-in-out;
+    } */
+    .btnDiv {
+        position: relative;
+        top: 210px;
+        text-align: center;
+       
+
+    }
+
+    /* Box OverLay */
+
+    .BoxOverlay {
+        position: relative;
+        background-color: #111;
+        width: auto;
+        height: auto;
+        left: auto;
+        right: auto;
+        top: auto;
+        padding: 100px 30px;      
+    }
+    .CntSupport {
+        padding: 10px;
+        background-color:transparent;
+        width: auto;
+        height: auto;
+        margin: auto;
+                     
+    }
+    .CntSupport p {
+        border: 1px solid #2b3243;
+        padding: 5px 10px;
+        font-family: inherit;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .sptBtn {
+     
+        width: auto;
+        margin: 20px auto;
+        height: auto;
+       
+        
+    }
+    .sptBtn button {
+        padding: 15px 40px;
+    }
+    .contain h4 {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        background-color: #0c0f16;
+        padding: 0px 10px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    
+
+        
+    }
+    .contain h5 {
+        font-size: 18px;
+        word-spacing: 0px;
+        font-weight: 600;
+        text-align: center;
+
+    }
+    .contain p {
+        margin-top: 8px;
+        font-size: 12px;
+        font-weight: 300;
+        font-family: inherit;
+        line-height: 20px;
+        text-align: center;
+    }
+    .OurSelf h4 {
+        font-size: 25px;
+        font-weight: 400;
+        color: #ccc;
+        text-align: center;
+    }
+    .OurSelf h4 span {
+        color:#dabd1d;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .OurSelf p {
+        font-size: 13px;
+        text-align: center;
+        color: #dabd1d;
+        font-weight: 500;
+
+    }
+}
+
+
+@media (width: 768px){
+    .MainBox {
+        background-color: #0c0f16;
+        width: auto;
+        height: auto;
+      
+    }   
+    .ContImg {
+        /* width: auto; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; 
+        padding: 30px 10px ;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .contain {
+        /* background-color: aquamarine; */
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        top: 72px;
+        padding: 10px 30px;
+        margin: 0px 10px;
+        border-radius: 10px;       
+    }
+  
+    .whole_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        
+    }
+    .OurSelf {
+        /* background-color: blueviolet; */
+        position: relative;
+        width: auto;
+        padding:10px;
+        height: auto;
+        margin-left: auto;
+        text-align: left;
+        margin: auto;
+        top: -160px;
+    }
+    .inptbox {
+        /* background-color: yellow; */
+        /* width: auto; */
+        height: auto;
+        padding: 0px;
+        margin-top: auto;
+      
+    }
+    .textarea {
+        position: relative;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        padding:0px;
+        margin: 0;
+        top: -160px;
+       
+        
+    }
+    .WholeSelectors {     
+       padding: 10px;
+       border-radius: 10px;
+       position: relative;
+       top: 220px;
+       
+    
+    }
+    .WholeSelectors select {
+        padding: 5px auto;
+        background-color: #111;   
+    }
+    /* .btn {
+
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid #dabd1d;;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-in-out;
+    } */
+    .btnDiv {
+        position: relative;
+        top: 210px;
+        text-align: center;
+       
+
+    }
+
+    /* Box OverLay */
+
+    .BoxOverlay {
+        position: relative;
+        background-color: #111;
+        width: auto;
+        height: auto;
+        left: auto;
+        right: auto;
+        top: auto;
+        padding: 100px 30px;      
+    }
+    .CntSupport {
+        padding: 10px;
+        background-color:transparent;
+        width: auto;
+        height: auto;
+        margin: auto;
+                     
+    }
+    .CntSupport p {
+        border: 1px solid #2b3243;
+        padding: 5px 10px;
+        font-family: inherit;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .sptBtn {
+     
+        width: auto;
+        margin: 20px auto;
+        height: auto;
+       
+        
+    }
+    .sptBtn button {
+        padding: 15px 40px;
+    }
+    .contain h4 {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        background-color: #0c0f16;
+        padding: 0px 10px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    
+
+        
+    }
+    .contain h5 {
+        font-size: 18px;
+        word-spacing: 0px;
+        font-weight: 600;
+        text-align: center;
+
+    }
+    .contain p {
+        margin-top: 8px;
+        font-size: 12px;
+        font-weight: 300;
+        font-family: inherit;
+        line-height: 20px;
+        text-align: center;
+    }
+    .OurSelf h4 {
+        font-size: 25px;
+        font-weight: 400;
+        color: #ccc;
+        text-align: center;
+    }
+    .OurSelf h4 span {
+        color:#dabd1d;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .OurSelf p {
+        font-size: 13px;
+        text-align: center;
+        color: #dabd1d;
+        font-weight: 500;
+
+    }
+}
+
+@media (width:820px){
+    .MainBox {
+        background-color: #0c0f16;
+        width: auto;
+        height: auto;
+      
+    }   
+    .ContImg {
+        /* width: auto; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; 
+        padding: 30px 10px ;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .contain {
+        /* background-color: aquamarine; */
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        top: 72px;
+        padding: 10px 30px;
+        margin: 0px 10px;
+        border-radius: 10px;       
+    }
+  
+    .whole_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        
+    }
+    .OurSelf {
+        /* background-color: blueviolet; */
+        position: relative;
+        width: auto;
+        padding:10px;
+        height: auto;
+        margin-left: auto;
+        text-align: left;
+        margin: auto;
+        top: -160px;
+    }
+    .inptbox {
+        /* background-color: yellow; */
+        /* width: auto; */
+        height: auto;
+        padding: 0px;
+        margin-top: auto;
+      
+    }
+    .textarea {
+        position: relative;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        padding:0px;
+        margin: 0;
+        top: -160px;
+       
+        
+    }
+    .WholeSelectors {     
+       padding: 10px;
+       border-radius: 10px;
+       position: relative;
+       top: 220px;
+       
+    
+    }
+    .WholeSelectors select {
+        padding: 5px auto;
+        background-color: #111;   
+    }
+    /* .btn {
+
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid #dabd1d;;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-in-out;
+    } */
+    .btnDiv {
+        position: relative;
+        top: 210px;
+        text-align: center;
+       
+
+    }
+
+    /* Box OverLay */
+
+    .BoxOverlay {
+        position: relative;
+        background-color: #111;
+        width: auto;
+        height: auto;
+        left: auto;
+        right: auto;
+        top: auto;
+        padding: 100px 30px;      
+    }
+    .CntSupport {
+        padding: 10px;
+        background-color:transparent;
+        width: auto;
+        height: auto;
+        margin: auto;
+                     
+    }
+    .CntSupport p {
+        border: 1px solid #2b3243;
+        padding: 5px 10px;
+        font-family: inherit;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .sptBtn {
+     
+        width: auto;
+        margin: 20px auto;
+        height: auto;
+       
+        
+    }
+    .sptBtn button {
+        padding: 15px 40px;
+    }
+    .contain h4 {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        background-color: #0c0f16;
+        padding: 0px 10px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    
+
+        
+    }
+    .contain h5 {
+        font-size: 18px;
+        word-spacing: 0px;
+        font-weight: 600;
+        text-align: center;
+
+    }
+    .contain p {
+        margin-top: 8px;
+        font-size: 12px;
+        font-weight: 300;
+        font-family: inherit;
+        line-height: 20px;
+        text-align: center;
+    }
+    .OurSelf h4 {
+        font-size: 25px;
+        font-weight: 400;
+        color: #ccc;
+        text-align: center;
+    }
+    .OurSelf h4 span {
+        color:#dabd1d;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .OurSelf p {
+        font-size: 13px;
+        text-align: center;
+        color: #dabd1d;
+        font-weight: 500;
+
+    }
+}
+
+@media (width:912px){
+    .MainBox {
+        background-color: #0c0f16;
+        width: auto;
+        height: auto;
+      
+    }   
+    .ContImg {
+        /* width: auto; */
+     
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap; 
+        padding: 30px 10px ;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .contain {
+        /* background-color: aquamarine; */
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        top: 72px;
+        padding: 10px 30px;
+        margin: 0px 10px;
+        border-radius: 10px;       
+    }
+  
+    .whole_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        
+    }
+    .OurSelf {
+        /* background-color: blueviolet; */
+        position: relative;
+        width: auto;
+        padding:10px;
+        height: auto;
+        margin-left: auto;
+        text-align: left;
+        margin: auto;
+        top: -160px;
+    }
+    .inptbox {
+        /* background-color: yellow; */
+        /* width: auto; */
+        height: auto;
+        padding: 0px;
+        margin-top: auto;
+      
+    }
+    .textarea {
+        position: relative;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        padding:0px;
+        margin: 0;
+        top: -160px;
+       
+        
+    }
+    .WholeSelectors {     
+       padding: 10px;
+       border-radius: 10px;
+       position: relative;
+       top: 220px;
+       
+    
+    }
+    .WholeSelectors select {
+        padding: 5px auto;
+        background-color: #111;   
+    }
+    /* .btn {
+
+        padding: 10px 50px;
+        text-align: center;
+        border: 1px solid #dabd1d;;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: ease-in-out;
+    } */
+    .btnDiv {
+        position: relative;
+        top: 230px;
+        text-align: center;
+        margin-bottom: 10px;
+       
+
+    }
+
+    /* Box OverLay */
+
+    .BoxOverlay {
+        position: relative;
+        background-color: #111;
+        width: auto;
+        height: auto;
+        left: auto;
+        right: auto;
+        top: auto;
+        padding: 100px 30px;      
+    }
+    .CntSupport {
+        padding: 10px;
+        background-color:transparent;
+        width: auto;
+        height: auto;
+        margin: auto;
+                     
+    }
+    .CntSupport p {
+        border: 1px solid #2b3243;
+        padding: 5px 10px;
+        font-family: inherit;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .sptBtn {
+     
+        width: auto;
+        margin: 20px auto;
+        height: auto;
+       
+        
+    }
+    .sptBtn button {
+        padding: 15px 40px;
+    }
+    .contain h4 {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        background-color: #0c0f16;
+        padding: 0px 10px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    
+
+        
+    }
+    .contain h5 {
+        font-size: 18px;
+        word-spacing: 0px;
+        font-weight: 600;
+        text-align: center;
+
+    }
+    .contain p {
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: inherit;
+        line-height: 20px;
+        text-align: center;
+    }
+    .OurSelf h4 {
+        font-size: 25px;
+        font-weight: 400;
+        color: #ccc;
+        text-align: center;
+    }
+    .OurSelf h4 span {
+        color:#dabd1d;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .OurSelf p {
+        font-size: 13px;
+        text-align: center;
+        color: #dabd1d;
+        font-weight: 500;
+
+    }
+}
+
+@media (width:1024px){
+    .ContImg {
+        width: auto;
+     
+   
+    }  
+    
+}
+
+@media (width:1280px){
+    .ContImg {
+        width: auto;
+        height: auto;
+      
+    }
+    
+}

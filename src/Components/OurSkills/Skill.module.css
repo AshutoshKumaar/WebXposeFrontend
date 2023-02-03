@@ -1,0 +1,372 @@
+.box {
+    margin-top: 0px;
+    background-color: #0c0f16;
+    height: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 280px;
+    z-index: -1;
+    position: relative;
+    cursor: pointer;
+}
+.FImg {
+    width: 290px;
+    height: 300px;
+
+}
+.FImg img {
+    width: 100%;
+    height: 100%;
+}
+.firsBox {
+    margin-right: 20px;
+
+}
+.Exp {
+    margin-top: 10px;
+    width: 290px;
+    height: 190px;
+    text-align: left;
+    padding: 20px;
+    background: #0c0f16;
+    border: 2px solid transparent;
+    border-bottom: 2px solid rebeccapurple;
+    background-color: #0c0f16; 
+    background: linear-gradient(#0c0f16, #101217), 
+              linear-gradient(to right, rgb(219, 111, 111), rgb(131, 61, 131));
+   background-origin: padding-box, border-box;
+   background-repeat: no-repeat;
+   box-shadow: 2px 3px 1px #0c0f16;
+}
+
+.Exp h4 {
+  padding-top: 20px;
+  font-size: 65px;
+  font-weight: 800;
+
+}
+.Exp p {
+    padding-top: 0px;
+    font-size: 22px;
+    color: #ccc;
+}
+.BgImg {
+    width: 350px;
+    height: 480px;
+}
+.BgImg img {
+    width: 100%;
+    height: 100%;
+}
+.Contain {
+    width: 600px;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin-left: 30px;
+    padding: 70px 10px;
+
+}
+.Contain h3 {
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 800;
+    padding: 0px;
+}
+.Contain p {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 0px;
+    color: #ccc;
+    word-spacing: 5px;
+   
+}
+.btn {
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: 0px;
+    background-color: #0c0f16;
+    width: 140px;
+    height: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 2px 3px #0c0f16;
+    border-radius: 8px;
+    
+}
+.btn button {
+    width: 100%;
+    height: 100%;
+     border-radius: 8px;
+    background-color: #0c0f16;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
+
+
+
+
+  /* Some media Quieries */
+
+
+  @media screen and (max-width: 500px) {
+    .box {
+        padding: 80px 0px;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+    .Contain  {
+        max-width: 100%;
+        margin:0px;
+        padding: 30px 30px;
+
+    }
+    .Contain h3 {
+        font-size: 30px;
+    }
+    .Contain p {
+        font-size: 15px;
+    }
+    .BgImg {
+        width: 290px;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media(width:540px){
+    .box {
+        padding: 80px 0px;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .BgImg {
+        width: 290px;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    .Contain  {
+        max-width: 100%;
+        margin:0px;
+        padding: 30px 30px;
+
+    }
+    .Contain h3 {
+        font-size: 30px;
+    }
+    .Contain p {
+        font-size: 15px;
+    }
+}
+@media(width:768px){
+    .box {
+        padding: 80px 0px;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .BgImg {
+        width: 290px;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    .Contain  {
+        max-width: 100%;
+        margin:0px;
+        padding: 30px 30px;
+
+    }
+    .Contain h3 {
+        font-size: 30px;
+    }
+    .Contain p {
+        font-size: 15px;
+    }
+}
+
+@media (width:912px){
+    .box {
+        margin-top: 0px;
+        width: auto;
+        background-color: #0c0f16;
+        height: auto;
+        color: #fff;
+        display: flex;
+        justify-content:space-between;
+        padding: 100px 10px;
+      
+        position: relative;
+    }
+    .Contain {
+        /* width: 400px; */
+        height: auto;
+        /* background-color: aquamarine; */
+        margin-left: 0px;
+       
+        padding: 20px 0px;
+    
+    }
+    .Contain h3 {
+        font-size: 30px;
+    }
+    .BgImg {
+        width: 400px;
+        margin-top: 0px;
+        margin-right: 15px;
+    }
+    .FImg {
+        width: 260px;
+        height: 300px;
+    
+    }
+    .Exp {
+        margin-top: 10px;
+        width: 260px;
+        height: 190px;
+        text-align: left;
+        padding: 20px;
+        background: #0c0f16;
+        border: 2px solid transparent;
+        border-bottom: 2px solid rebeccapurple;
+        background-color: #0c0f16; 
+        background: linear-gradient(#0c0f16, #101217), 
+                  linear-gradient(to right, rgb(219, 111, 111), rgb(131, 61, 131));
+       background-origin: padding-box, border-box;
+       background-repeat: no-repeat;
+       box-shadow: 2px 3px 1px #0c0f16;
+    }
+}
+
+@media (width:820px){
+    .box {
+        margin-top: 0px;
+        width: auto;
+        background-color: #0c0f16;
+        height: auto;
+        color: #fff;
+        display: flex;
+        justify-content:space-between;
+        padding: 100px 10px;
+      
+        position: relative;
+    }
+    .Contain {
+        /* width: 400px; */
+        height: auto;
+        /* background-color: aquamarine; */
+        margin-left: 0px;
+       
+        padding: 20px 0px;
+    
+    }
+    .Contain h3 {
+        font-size: 30px;
+    }
+    .BgImg {
+        width: 400px;
+        margin-top: 0px;
+        margin-right: 15px;
+    }
+    .FImg {
+        width: 260px;
+        height: 300px;
+    
+    }
+    .Exp {
+        margin-top: 10px;
+        width: 260px;
+        height: 190px;
+        text-align: left;
+        padding: 20px;
+        background: #0c0f16;
+        border: 2px solid transparent;
+        border-bottom: 2px solid rebeccapurple;
+        background-color: #0c0f16; 
+        background: linear-gradient(#0c0f16, #101217), 
+                  linear-gradient(to right, rgb(219, 111, 111), rgb(131, 61, 131));
+       background-origin: padding-box, border-box;
+       background-repeat: no-repeat;
+       box-shadow: 2px 3px 1px #0c0f16;
+    }
+}
+
+@media (width:1024px){
+    .box {
+        margin-top: 0px;
+        width: auto;
+        background-color: #0c0f16;
+        height: auto;
+        color: #fff;
+        display: flex;
+        justify-content:space-between;
+        padding: 100px 40px;
+      
+        position: relative;
+    }
+    .Contain {
+        /* width: auto; */
+        height: auto;
+        /* background-color: aquamarine; */
+        margin-left: 0px;
+       
+        padding: 30px 10px;
+    
+    }
+    .Contain h3 {
+        font-size: 30px;
+    }
+    .BgImg {
+        width: 390px;
+        margin-top: 0px;
+        margin-right: 15px;
+    }
+}
+@media ( width:1280px ){
+    .box {
+        margin-top: 0px;
+        width: auto;
+        background-color: #0c0f16;
+        height: auto;
+        color: #fff;
+        display: flex;
+        justify-content:space-evenly;
+        padding: 50px 60px;
+      
+        position: relative;
+    }
+    .Contain {
+        /* width: auto; */
+        max-width: 100%;
+        min-height: 100%;
+       
+        /* background-color: aquamarine; */
+        margin-left: 20px;
+       
+        padding: 50px 20px;
+    
+    }
+    .Contain h3 {
+        font-size: 30px;
+    }
+    .BgImg {
+        width: auto;
+        margin-top: 0px;
+        margin-right: 15px;
+    }
+}

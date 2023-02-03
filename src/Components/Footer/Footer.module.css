@@ -1,0 +1,212 @@
+
+ *{
+ text-decoration: none;   
+ }
+ .main {
+    max-width: 100%;
+    min-height: 100%;
+    background-color: black;
+    color: #ccc;
+    cursor: pointer;
+}
+.GetInTouch {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;  
+}
+/* First I have to Maintain the Size of Img */
+
+.FooterImg {
+    max-width: 600px;
+    min-height: auto;
+  
+  
+}
+.FooterImg img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Work With Link */
+.FollowUs ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+.FollowUs ul li {
+    list-style-type: none;
+    padding: 4px 10px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #ccc;    
+}
+.FollowUs ul li:hover {
+    color: aqua;
+}
+
+.OurLogo {
+    padding: 5px;
+}
+.OurLogo h1 {
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.OurLogo h1 span {
+    font-size: 37px;
+    color: goldenrod;
+}
+.OurLogo p {
+    font-size: 20px;
+    padding: 0px 10px;
+    
+
+}
+.OurLogo p span {
+    padding-left: 4px;
+
+}
+.Company {
+    text-align: left;
+
+}
+.Company h3 {
+    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.Company p {
+    padding: 5px 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 5px;
+    color: #ccc;
+}
+.Company p:hover {
+    text-decoration: underline;
+}
+.furtherInfo h3 {
+    padding: 3px;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.furtherInfo p {
+    padding: 5px 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ccc;
+    margin-top: 3px;
+}
+.furtherInfo p:hover {
+    text-decoration: underline;
+}
+
+/* Follow Us */
+
+
+@media screen and (max-width: 600px) {
+    .GetInTouch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px 10px;
+         
+     }
+     .OurLogo {
+        padding: 0px;
+    }
+    .OurLogo h1 {
+        padding: 0px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .OurLogo p {
+        font-size: 20px;
+        padding: 0px 0px;
+    
+    }
+}
+
+@media (width:768px){
+    .GetInTouch {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+         
+     }
+     .FooterImg {
+        max-width: 100%;
+        min-height: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+      
+      
+    }
+}
+@media (width: 820px){
+    .GetInTouch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+         
+     }
+     .FooterImg {
+        max-width: 100%;
+        min-height: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+      
+      
+    }
+   
+}
+
+@media (width: 912px){
+    .GetInTouch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+         
+     }
+     .FooterImg {
+        max-width: 100%;
+        min-height: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+      
+      
+    }
+}
+
+@media (width:1024px){
+    .GetInTouch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+         
+     }
+     .FooterImg {
+        max-width: 100%;
+        min-height: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+      
+      
+    }
+}

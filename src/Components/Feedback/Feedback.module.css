@@ -1,0 +1,120 @@
+.mainDiv {
+    max-width: 100%;
+    background-color:#112031;
+    padding: 50px;
+    
+   
+}
+.FeedbackDiv {
+    max-width: 60%;
+    background-color: rgb(18, 38, 38);
+    margin: 0 auto;
+    
+               
+}
+.perSonal {
+    padding: 10px;
+}
+.Name {
+    padding: 0px 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ccc;
+}
+.Name span {
+    margin-right: 10px;
+    color:  gray;
+}
+.email {
+    padding: 0px 12px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ccc;;
+}
+.email span {
+    margin-right: 10px;
+    color: grey;
+}
+.getStars {
+    padding: 0px 11px;
+    margin-left: 34px;
+}
+.getICons {
+    margin-left: 10px;
+    font-size: 18px;
+    color: orange;
+    font-weight: 900;
+}
+.content {
+    padding: 20px 30px;
+}
+.content p {
+    /* background-color: rgba(6, 22, 46, 0.629); */
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ccc;
+    font-family: cursive;
+    word-spacing: 2px;
+}
+
+
+
+
+
+
+
+/* Responsive design */
+
+
+
+@media screen and (max-width: 600px) {
+    .mainDiv {
+        max-width: 100%;
+        padding: 20px;
+        
+       
+    }
+    .FeedbackDiv {
+        max-width: 100%;
+        background-color: rgb(18, 38, 38);
+        margin: 0 auto;
+       
+                   
+    }
+    .perSonal {
+        padding: 5px;
+    }
+    .Name {
+        padding: 0px 5px;
+        font-size: auto;
+        font-weight: 700;
+        color: #ccc;
+    }
+    .Name span {
+        margin-right: 10px;
+        color:  gray;
+    }
+    .email {
+        padding: 0px 6px;
+        font-size: auto;
+        font-weight: 300;
+        color: #ccc;;
+    }
+    .email span {
+        margin-right: 10px;
+        color: grey;
+    }
+    .content {
+        padding: 10px auto;
+    }
+    .content p {
+        /* background-color: rgba(6, 22, 46, 0.629); */
+        padding: auto;
+        font-size: auto;
+        font-weight: 400;
+        color: #ccc;
+        font-family: cursive;
+        word-spacing: 2px;
+    }
+}
